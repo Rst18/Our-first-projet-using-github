@@ -16,5 +16,10 @@ namespace ProjetGit
         {
             InitializeComponent();
         }
+
+        private void btnFermer_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
